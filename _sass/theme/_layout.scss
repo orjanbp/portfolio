@@ -1,0 +1,24 @@
+/**
+ * Font styling
+ */
+h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-bottom: 4rem;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.125rem;
+}
+
+/** 
+ * Make a section cover the entire page
+ */
+.fullscreen {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+}

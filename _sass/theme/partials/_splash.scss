@@ -1,0 +1,52 @@
+/**
+ * Main body of frontpage splash
+ */
+.splash {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #b9b9b9;
+}
+
+/**
+ * Inner container of splash contents
+ */
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.splash-block-right {
+    float: right;
+    width: 670px;
+    height: 700px;
+    background-color: #999999;
+}
+
+.splash-block-left {
+    position: absolute;
+    top: 48px;
+    width: 630px;
+    height: 430px;
+    background-color: #f7f7f7;
+    padding: 48px 64px; 
+}
+
+.splash-block-left h1 {
+    float: right;
+    text-align: right;
+    max-width: 500px;
+}
+
+.splash-block-left p {
+    float: right;
+    text-align: right;
+    max-width: 400px;
+}
+
+.navbar-desktop {
+    position: absolute;
+    bottom: 0;
+}
