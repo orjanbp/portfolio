@@ -1,3 +1,15 @@
 .showcase {
-    margin-top: 192px;
+    display: flex;
+    padding-top: 192px;
+}
+
+.showcase-text {
+    width: 50%;
+    margin-right: 64px;
+}
+
+.showcase-gallery {
+    width: 50%;
+    height: 900px;
+    background-color: #bababa;
 }
