@@ -1,11 +1,36 @@
+.navbar {
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+}
+
 .navbar a {
-    font-family: 'Oxygen' sans-serif;
+    position: relative;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
+    color: #fff;
     margin: 0px 16px;
+}
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    height: 1px;
+    width: 0%;
+    background-color: #FFF;
+    transition: 0.2s ease-out;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+.navbar a:hover::after {
+    width: 100%;
 }
 
 .navbar-desktop {
     position: absolute;
-    bottom: 24px;
+    bottom: 0px;
 }
